@@ -1,0 +1,58 @@
+## if文の課題
+
+# if文基礎
+
+import numpy as np
+
+word = "a"
+
+if word == 'A':
+    print ('not a')
+elif word == 'a':
+    print ('not A')
+else:
+    print ('どっちでもない')
+    
+ # 成績の条件分岐
+ 
+ import numpy as np
+grade = input()
+
+if grade >= 90:
+    print ('S')
+elif grade >= 85:
+    print ('A')
+elif grade >= 84:
+    print ('A+')
+elif grade >= 79:
+    print ('B+')
+elif grade >= 74:
+    print ('B')
+elif grade >= 69:
+    print ('C+')
+elif grade >= 64:
+    print ('C')
+else:
+    print ('D')
+    
+# ジェンケンゲーム
+
+print ('my_handの入力: rock, scissors, or, paper: ')
+my_hand = input()
+
+print('cpu_handの入力:　rock, scissors, or, paper:')
+cpu_hand = input()
+
+print ('my_hand', my_hand, 'cpu_hand', cpu_hand)
+
+if my_hand == cpu_hand:
+    print ('rock, scissors, paper')
+elif my_hand == 'rock' and cpu_hand == 'scissors':
+    print ('you win')
+elif my_hand == 'paper' and cpu_hand == 'rock':
+    print ('you win')
+elif my_hand == 'scissors' and cpu_hand == 'paper':
+    print ('you win')
+else:
+    print ('you lose')
+    
